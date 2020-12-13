@@ -89,16 +89,24 @@ ItemDisplay[dcho]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[dcso]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[imrn]: %RED%o %NAME%%RED% o%MAP%
 //Maps
-ItemDisplay[t11 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
-ItemDisplay[t12 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
-ItemDisplay[t13 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
-ItemDisplay[t14 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
-ItemDisplay[t15 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
-ItemDisplay[t16 !ID]: %RED%oo %NAME% %RED%oo
-ItemDisplay[t17 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
-ItemDisplay[t18 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
+ItemDisplay[t11 MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
+ItemDisplay[t12 MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
+ItemDisplay[t13 MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
+ItemDisplay[t14 MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
+ItemDisplay[t15 MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
+ItemDisplay[t16 MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo
+ItemDisplay[t17 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t18 MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
+ItemDisplay[t11 RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
+ItemDisplay[t12 RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
+ItemDisplay[t13 RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
+ItemDisplay[t14 RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
+ItemDisplay[t15 RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
+ItemDisplay[t16 RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
+ItemDisplay[t17 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t18 RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
 ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 MAG ID]: %RED%oo %BLUE%%NAME% %RED%oo
-ItemDisplay[t17 (NMAG OR !RARE) ID]: %RED%oo %WHITE%%NAME% %RED%oo%MAP%
+ItemDisplay[t17 (NMAG OR !RARE) ID]: %PURPLE%oo %WHITE%%NAME% %PURPLE%oo%MAP%
 ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t18 (NMAG OR !RARE) ID]: %RED%oo %WHITE%%NAME% %RED%oo
 //All norm 1sock
 ItemDisplay[NMAG SOCK=1]:
@@ -594,7 +602,7 @@ ItemDisplay[xar SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[urn SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[7ws SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[paf SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
-ItemDisplay[6cs SET !ID ]: %RED%o %GREEN%%NAME% Naj's %RED%o%MAP%
+ItemDisplay[6cs SET !ID]: %RED%o %GREEN%%NAME% Naj's %RED%o%MAP%
 ItemDisplay[ci3 SET !ID]: %RED%o %GREEN%%NAME% Mavina's %RED%o%MAP%
 ItemDisplay[amc SET !ID]: %RED%o %GREEN%%NAME% Mavina's %RED%o%MAP%
 ItemDisplay[uld SET !ID]: %RED%o %GREEN%%NAME% Mavina's %RED%o%MAP%
