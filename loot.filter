@@ -397,6 +397,11 @@ ItemDisplay[jew !UNI !RARE (DEX>4 AND MAEK>2)]: %NAME% {%GREEN%Dex %WHITE%* %BLU
 ItemDisplay[jew !UNI !RARE (FHR>1 AND MAEK>2)]: %NAME% {%ORANGE%FHR %WHITE%* %BLUE%Mana %WHITE%Per Kill %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE MAEK>2]: %NAME% {%BLUE%Mana %WHITE%Per Kill %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE RES>12]: %NAME% {%PURPLE%All %WHITE%Res %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (ED>29 AND STAT91>0)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (MAXDMG>10 AND STAT91>0)]: %NAME% {%TAN%Max Dmg %WHITE%* %ORANGE%Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (IAS>1 AND STAT91>0)]: %NAME% {%ORANGE%IAS %WHITE%* %ORANGE%Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (STAT91>0 AND MAEK>2)]: %NAME% {%ORANGE%Req %WHITE%* %BLUE%Mana %WHITE%Per Kill %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (STAT91>0 AND RES>9)]: %NAME% {%ORANGE%Req %WHITE%* %PURPLE%All %WHITE%Res %BLUE%Jewel}
 //Unique Charms
 ItemDisplay[cm1 UNI !ID]: %PURPLE%ooooo %GOLD%Annihilus %PURPLE%ooooo%MAP%
 ItemDisplay[cm2 UNI !ID]: %PURPLE%ooooo %GOLD%Hellfire Torch %PURPLE%ooooo%MAP%
@@ -524,7 +529,7 @@ ItemDisplay[xtb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%War Traveler%MAP%
 ItemDisplay[xhb UNI !ID !ETH]: %RED%ooo %PURPLE%Gore Rider %RED%ooo%MAP%
 ItemDisplay[xhb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Gore Rider%MAP%
 ItemDisplay[uvb UNI !ID !ETH]: %RED%oo Sandstorm Trek oo%MAP%
-ItemDisplay[uvb UNI !ID ETH]:  %RED%oo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Sandstorm Trek %REDoo%MAP%
+ItemDisplay[uvb UNI !ID ETH]:  %RED%oo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Sandstorm Trek %RED%oo%MAP%
 ItemDisplay[umb UNI !ID !ETH]: %RED%oo Marrowwalk oo%MAP%
 ItemDisplay[umb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Marrowwalk%MAP%
 ItemDisplay[uhb UNI !ID !ETH]: %RED%o Shadow Dancer o%MAP%
@@ -871,6 +876,12 @@ ItemDisplay[7ls NMAG ETH ED>0 ED<15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%
 ItemDisplay[7ls NMAG ETH (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7ls NMAG !ETH ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7ls NMAG !ETH ED=15 !SOCK=0 !SOCK=1 !SOCK=3]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Cryptic Sword (Oath etc)
+ItemDisplay[7ls NMAG ETH ED=15 SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7ls NMAG ETH ED>0 ED<15 SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7ls NMAG ETH SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7ls NMAG !ETH ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7ls NMAG !ETH ED=15 !SOCK=0 !SOCK=1 !SOCK=3]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Mythical Sword (Lawbringer)
 ItemDisplay[7wd NMAG ETH ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wd NMAG ETH ED>0 ED<15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -907,7 +918,7 @@ ItemDisplay[(7gl OR 7ts) ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%
 ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7br NMAG !ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Ghost Spear
 ItemDisplay[7st NMAG ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7st NMAG ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
