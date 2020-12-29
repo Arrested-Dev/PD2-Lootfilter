@@ -781,7 +781,7 @@ ItemDisplay[upl NMAG !ETH !INF !SOCK=1 DEF>485]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[uld NMAG ETH SOCK>1 DEF>744]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[ult NMAG ETH !SOCK=1 DEF>754]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[uth NMAG ETH !SOCK=1 DEF>768]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(uul OR uth OR uar) NMAG ETH !SOCK=1 DEF>770]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(uul OR uar) NMAG ETH !SOCK=1 DEF>770]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[uul NMAG !ETH]:
 //Archon Plate 30%from highest
 ItemDisplay[utp NMAG ETH !SOCK=1 DEF>620 CLVL<90]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -871,7 +871,7 @@ ItemDisplay[(crs OR bsd OR lsd) !INF NMAG !ETH SOCK=4 CLVL<61]: %GRAY% %NAME% %T
 ItemDisplay[(crs OR bsd OR lsd) !INF NMAG ETH SOCK=4 CLVL<61]: %GRAY%[%WHITE%%eth%GRAY%]%GRAY% %NAME% %TAN%[%SOCKETS%]
 //Crystal Sword
 ItemDisplay[crs NMAG !ETH !INF SOCK=5]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[crs NMAG !INF !ETH OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[crs NMAG !INF !ETH SOCK=4]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[crs NMAG ETH (SOCK=0 OR SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Broad Sword
 ItemDisplay[bsd NMAG !ETH !INF SOCK=4 CLVL<51]: %GRAY%%NAME% %TAN%[%SOCKETS%]
