@@ -85,7 +85,7 @@ ItemDisplay[rera]: %ORANGE%o %NAME%%ORANGE% o%MAP% {%WHITE%+ PGem + %TAN%Thul>%N
 ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP% {%WHITE%+ %ORANGE%Hel%NL%%WHITE%Return to White Map}
 ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP% {%WHITE%+ PSkull + %TAN%Thul>%NL%%WHITE%Upg %BLUE%Magic %WHITE%to %YELLOW%Rare Map}
 ItemDisplay[upmp]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Three %WHITE%M%BLUE%A%YELLOW%P%WHITE%s of Same Tier %NL%%WHITE%Upg Maps to Next Tier}
-ItemDisplay[scarab]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Tier 3 %RED%Map %NL%%WHITE%Turns %RED%Map%WHITE% into %PURPLE%Dungeon%PURPLE%}
+ItemDisplay[scrb]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Tier 3 %RED%Map %NL%%WHITE%Turns %RED%Map%WHITE% into %PURPLE%Dungeon%PURPLE%}
 ItemDisplay[lbox]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP%
 ItemDisplay[dcma]: %RED%o %NAME%%RED% o%MAP%
@@ -649,10 +649,6 @@ ItemDisplay[6sw UNI !ID]: %RED%o Widowmaker o%MAP%
 ItemDisplay[6lw UNI !ID]: %RED%ooo %PURPLE%Windforce %RED%ooo%MAP%
 ItemDisplay[8ls UNI !ID !ETH]: %RED%oo %PURPLE%Ribcracker %RED%oo%MAP%
 ItemDisplay[8ls UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Ribcracker %RED%ooo%MAP%
-ItemDisplay[9wn UNI !ID !ETH]: %RED%o Suicide Branch o%MAP%
-ItemDisplay[9wn UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Suicide Branch o%MAP%
-ItemDisplay[9yw UNI !ID !ETH]: %GOLD%Carin Shard%MAP%
-ItemDisplay[9yw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Carin Shard%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo Ondal's Wisdom %RED%oo%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo [%WHITE%eth%GRAY%] Ondal's Wisdom %RED%oo%MAP%
 ItemDisplay[6ws UNI !ID !ETH]: %RED%oo %PURPLE%Mang Song's Lesson %RED%oo%MAP%
@@ -1277,7 +1273,7 @@ ItemDisplay[WP12 MAG !ID ILVL>39]:
 ItemDisplay[WP13 MAG !ID ILVL<40]: %BLUE%%NAME%
 ItemDisplay[WP13 MAG !ID ILVL>39]:
 //Class Specific
-ItemDisplay [(CL6 OR CL7 OR CL4 OR CL2 OR CL1) MAG !ETH !ID QLVL>40]: %BLUE%%NAME%
+ItemDisplay[(CL6 OR CL7 OR CL5 OR CL4 OR CL3 OR CL2 OR CL1) MAG !ETH !ID CLVL<60]: %BLUE%%NAME%
 ItemDisplay[CL1 MAG !ID ILVL>55]:
 ItemDisplay[CL2 MAG !ID ILVL>55]:
 ItemDisplay[CL3 MAG !ID ILVL>55]:
