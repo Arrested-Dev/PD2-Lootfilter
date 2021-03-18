@@ -480,7 +480,7 @@ ItemDisplay[(9tw OR 9lw OR 7tw OR 7lw OR 7AR) MAG ETH ILVL>70 !ID]: %GRAY%[%WHIT
 ///Armour
 //Chest
 ItemDisplay[(utp OR uui) MAG !ETH (ILVL>70 AND CLVL<90) !ID]: %BLUE%%NAME%
-ItemDisplay[(ELT OR xar OR xth) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(EQ2 ELT) OR (xar OR xth) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Shield
 ItemDisplay[uit MAG !ETH (ILVL>70 AND CLVL<90) !ID]: %BLUE%%NAME%
 ItemDisplay[CL3 MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
