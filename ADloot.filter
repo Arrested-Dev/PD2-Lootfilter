@@ -501,8 +501,8 @@ ItemDisplay[(WP9 OR WP10) (ELT) MAG !ETH ILVL>70 !ID]: %BLUE%%NAME%
 ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[CL2 (EXC OR ELT) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[(pab OR pac) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(ob5 OR obf OR oba) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(ob5 OR obf OR oba) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(obf OR oba) MAG !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[(obf OR oba) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 9gw OR 9bw OR 9yw) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 9gw OR 9bw OR 9yw) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[(ne8 OR ne9 OR nea OR ned OR nee OR nef) MAG !ETH !ID]: %BLUE%%NAME%
