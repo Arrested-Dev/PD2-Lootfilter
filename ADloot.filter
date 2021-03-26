@@ -984,24 +984,22 @@ ItemDisplay[7cr NMAG !SOCK=1 !SOCK=2]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7bs NMAG ETH ED=15 SOCK=3]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7bs NMAG ETH ED>0 ED<15 SOCK=3]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7bs NMAG ETH SOCK=3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7bs NMAG !ETH ED=15 !SOCK=1]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Cryptic Sword (Lawbringer for A3 merc)
+///Cryptic Sword (Lawbringer for A3 merc)
 ItemDisplay[7ls NMAG ETH ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7ls NMAG ETH ED>0 ED<15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7ls NMAG ETH (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7ls NMAG !ETH ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7ls NMAG !ETH ED=15 !SOCK=0 !SOCK=1 !SOCK=3]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Cryptic Sword (Oath etc)
-ItemDisplay[7ls NMAG ETH ED=15 SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7ls NMAG ETH ED>0 ED<15 SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+///Cryptic Sword (Oath etc)
+ItemDisplay[7ls NMAG ETH ED=15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7ls NMAG ETH ED>0 ED<15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7ls NMAG ETH SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7ls NMAG !ETH ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7ls NMAG !ETH ED=15 !SOCK=0 !SOCK=1 !SOCK=3]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Balrog Blade (Oath etc)
+ItemDisplay[7gs NMAG ETH ED=15 SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7gs NMAG ETH ED>0 ED<15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7gs NMAG ETH (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Mythical Sword (Lawbringer)
 ItemDisplay[7wd NMAG ETH ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wd NMAG ETH ED>0 ED<15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wd NMAG ETH (SOCK=0 OR SOCK=3)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7wd NMAG !ETH ED=15 !SOCK=1]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Legend Sword (Lawbringer for A5 merc) 
 ItemDisplay[72h NMAG ETH ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[72h NMAG ETH ED>0 ED<15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
