@@ -1027,9 +1027,9 @@ ItemDisplay[7kr NMAG !ETH ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%%15%GRAY%] %N
 //Venom
 ItemDisplay[kri NMAG !ETH ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///WP5 THROWING
-ItemDisplay[(7tk OR 7ta OR 7bk OR 7b8) NMAG ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
+ItemDisplay[(7tk OR 7ta OR 7bk OR 7b8) NMAG ETH]:
 ///WP6 JAVELINS(NON AMA)
-ItemDisplay[(7gl OR 7ts) NMAG ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
+ItemDisplay[(7gl OR 7ts) NMAG ETH]:
 ///WP7 SPEARS(NON AMA)
 //Mancatcher
 ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
