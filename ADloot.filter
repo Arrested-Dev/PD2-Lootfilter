@@ -1354,7 +1354,7 @@ ItemDisplay[EQ5 MAG !ID ILVL>54]:
 ItemDisplay[EQ6 MAG !ID ILVL>54]:
 //Circlets
 ItemDisplay[EQ7 MAG !ETH !ID]: %BLUE%o %NAME% o
-ItemDisplay[EQ7 MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%]%BLUE%%NAME%
+ItemDisplay[EQ7 MAG ETH !ID]:
 //Helm
 ItemDisplay[EQ1 MAG !ID ILVL>54]:
 //Staff, Wand, Scepter
