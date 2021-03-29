@@ -765,7 +765,7 @@ ItemDisplay[uhl UNI !ETH !ID]: %PURPLE%ooooo Overlord's Helm ooooo%MAP%
 ItemDisplay[uhl UNI ETH !ID]: %PURPLE%ooooo %GRAY%[%WHITE%eth%GRAY%] Overlord's Helm ooooo%MAP%
 ItemDisplay[utb UNI !ETH !ID]: %PURPLE%ooooo Itherael's Path ooooo%MAP%
 ItemDisplay[utb UNI ETH !ID]: %PURPLE%ooooo %GRAY%[%WHITE%eth%GRAY%] Itherael's Path ooooo%MAP%
-ItemDisplay[utb UNI !ETH !ID]: %PURPLE%ooooo Hadriel's Hand ooooo%MAP%
+ItemDisplay[7bs UNI !ETH !ID]: %PURPLE%ooooo Hadriel's Hand ooooo%MAP%
 ////RINGS/AMULETS/JEWELS
 ItemDisplay[(rin OR amu) UNI !ID]: %RED%oooo%PURPLE% %NAME% %RED%oooo%MAP%
 ItemDisplay[(rin OR amu) SET !ID]: %RED%o%GREEN% %NAME% %RED%o%DOT-50%
