@@ -515,31 +515,32 @@ ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) MAG !ETH !ID CLVL<80]: %BLU
 ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) MAG ETH !ID CLVL<80]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ///Crafting Blue Weaps
 //Axes
-ItemDisplay[(9ax OR 7ax OR 72a OR 7mp OR 9wa OR 7wa OR 9la OR 7la OR 7ba OR 7bt OR 7ga OR 7gi) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(9ax OR 7ax OR 72a OR 7mp OR 9wa OR 7wa OR 9la OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR wax) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Mauls
 ItemDisplay[(9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Swords
-ItemDisplay[(9cr OR 9ls OR 7ls OR 7gs OR 7b7 OR 7fb OR 7gd OR crs) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(9cr OR 9ls OR 7ls OR 7gs OR 9gs OR 7b7 OR 9b7 OR 7fb OR 9fb OR 7gd OR 9gd OR crs) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Fanged knife
-ItemDisplay[7kr MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7kr OR 9kr) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Elite throw + jav
-ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 7ts OR 7gl) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 7ts OR 7gl OR 9ts OR 9gl OR 9b8) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Ghost Spear + Warpike
-ItemDisplay[(7st OR 7p7) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7st OR 7p7 OR 9p9 OR pik) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Cryptic axe + Giant Thresher
-ItemDisplay[(7pa OR 7wc) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7pa OR 9pa OR 7wc OR 9wc OR 7h7 OR 9h9) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Archon Staff, Shillelagh, Stalagmite
 ItemDisplay[(6ws OR 6cs OR 6ls) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Caddy
-ItemDisplay[7ws MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7ws OR 9ws) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Claws
-ItemDisplay[(9tw OR 9lw OR 7tw OR 7lw OR 7AR) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(9tw OR 9lw OR 7tw OR 7lw OR 7ar OR 9ar) MAG !ETH ILVL>70 !ID]: %BLUE%%NAME%
+ItemDisplay[(clw OR btl) ELT MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ///Armour
 //Helm (merc)
 ItemDisplay[(EQ1 ELT) OR (xrn OR xm9 OR xhm) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Chest
-ItemDisplay[(EQ2 ELT) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(EQ2 ELT) OR (xar OR xth OR aar) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[EQ2 ELT MAG !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[(EQ2 ELT) OR (xar OR xth OR aar) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%%MAP%
 //Shield
 ItemDisplay[uit MAG !ETH (ILVL>70 AND CLVL<90) !ID]: %BLUE%%NAME%
 ItemDisplay[(uit OR xit OR xow OR uow OR xts OR uts) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
@@ -551,11 +552,11 @@ ItemDisplay[(EQ6 ELT) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Boots
 ItemDisplay[(EQ5 ELT) OR (xtb OR xhb) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Bows & X-Bows
-ItemDisplay[(WP9 OR WP10) (ELT) MAG !ETH ILVL>70 !ID]: %BLUE%%NAME%
+ItemDisplay[(WP9 OR WP10) (ELT) MAG !ETH (ILVL>70 AND CLVL<90) !ID]: %BLUE%%NAME%
 ///Other Class Specific
 ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[CL2 (EXC OR ELT) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(pab OR pac) MAG !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[(DIN (ELT OR EXC) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[(obf OR oba) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[(obf OR oba) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 9gw OR 9bw OR 9yw) MAG !ETH !ID]: %BLUE%%NAME%
