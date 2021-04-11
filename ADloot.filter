@@ -534,7 +534,7 @@ ItemDisplay[(6ws OR 6cs OR 6ls) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %
 ItemDisplay[(7ws OR 9ws OR wsp) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Claws
 ItemDisplay[(9tw OR 9lw OR 7tw OR 7lw OR 7ar OR 9ar) MAG !ETH ILVL>70 !ID]: %BLUE%%NAME%
-ItemDisplay[(clw OR btl OR 9tw OR 9lw OR 7tw OR 7lw OR 7ar OR 9ar) ELT MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(9tw OR 9lw OR 7tw OR 7lw OR 7ar OR 9ar) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ///Armour
 //Helm (merc)
 ItemDisplay[(EQ1 ELT) OR (xrn OR xm9 OR xhm OR crn OR xh9 OR hlm OR ghm) (!CL2 AND !CL1) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
