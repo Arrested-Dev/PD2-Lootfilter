@@ -1356,6 +1356,12 @@ ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK84=2 ILVL<67]: %GRAY%[%WHITE%2spe%GRAY%] 
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK92=2 ILVL<67]: %GRAY%[%WHITE%2nov%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK83=2 ILVL<67]: %GRAY%[%WHITE%2des%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK74=2 ILVL<67]: %GRAY%[%WHITE%2ce%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK75>1 !SOCK=1]: %GRAY%[%WHITE%2clag%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK94>1 !SOCK=1]: %GRAY%[%WHITE%2firg%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK85>1 !SOCK=1]: %GRAY%[%WHITE%2blog%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK89>1 !SOCK=1]: %GRAY%[%WHITE%2skar%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK80>1 !SOCK=1]: %GRAY%[%WHITE%2skma%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK70>1 !SOCK=1]: %GRAY%[%WHITE%2skwa%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///WP13 SCEPTERS
 ItemDisplay[WP13 NMAG !ETH SK117>2 (SOCK=3 OR SOCK=5)]: %GRAY%[%PURPLE%3holy%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[WP13 NMAG ETH SK117>2 (SOCK=3 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%PURPLE%3holy%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
